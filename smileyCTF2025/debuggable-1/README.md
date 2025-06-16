@@ -14,7 +14,7 @@ The dockerfile isn't really important just makes linux container with the flag a
 
 In run.py we can see that the instance takes in an base64 encoded ELF file loads into gdb and runs the following commands
 ```
-list `/app/flag.txt`
+list /app/flag.txt
 q
 ```
 
@@ -37,10 +37,12 @@ void dummy12345678(){}
 int main(){}
 ```
 
-Next we compile with `gcc -g sol123.c -fdebug-prefix-map=$(pwd)=/app`. The `-fdebug-prefix-map` makes it in our debug into it looks like our program was compiled from `/app`
+Next we compile with `gcc -g sol123.c -fdebug-prefix-map=$(pwd)=/app`. The `-fdebug-prefix-map` makes it so in our debug into it looks like our program was compiled from `/app`
 
 Then we change the first `sol123.c` in our binary to `flag.txt` using sed or any file editor. We do the same for `dummy12345678` to `/app/flag.txt`
 
-For this to work the names that we change must be the same length or it will mess up the binary
+For this to work that the names that we change must be the same length or it will mess up the binary
 
-Now we convert our binary into base64 and send it to the instance giving us the flag `.;,;.{elves_dwarves_orcs_what_is_going_to_be_next}`
+Now we convert our binary into base64 and send it to the instance giving us the flag 
+
+`.;,;.{elves_dwarves_orcs_what_is_going_to_be_next}`
