@@ -1,7 +1,7 @@
 # Debuggable-2
 > GDB is safe if you never run the binary right?
 
-# Files
+## Files
 
 ```
 Dockerfile
@@ -18,7 +18,7 @@ The `run.py` has also changed to run:
 q
 ```
 
-# Approach
+## Approach
 
 `set auto-load safe-path /` basically lets gdb run any script that is embedded in our binary
 
@@ -32,7 +32,7 @@ There are 2 ways to do this:
 
 We will use the second since we can't use any python scripts on the server
 
-# Solution
+## Solution
 
 We make a basic c file using the docs sample:
 ```
@@ -49,10 +49,10 @@ asm(
 ".popsection\n"
 );
 
-int main(void){}
+int main(){}
 ```
 
-which embeds the following python code:
+which embeds the python code:
 ```
 import gdb
 f = open('/app/flag.txt', 'r')
