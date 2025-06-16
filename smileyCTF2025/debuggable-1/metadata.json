@@ -1,0 +1,9 @@
+{
+  "title": "Debuggable-1",
+  "description": "GDB Exploit",
+  "category": "pwn",
+  "difficulty": "Medium",
+  "date": "2025-06-14",
+  "tags": ["pwn", "gdb", "c"],
+  "ctf": "SmileyCTF 2025"
+}
