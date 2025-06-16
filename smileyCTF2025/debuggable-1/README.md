@@ -31,7 +31,7 @@ This will make gdb list the source code of the file, which we have set to `/app/
 ## Solution
 
 First we write a basic c program called sol123.c:
-```
+```c
 #include <stdio.h>
 void dummy12345678(){}
 int main(){}

