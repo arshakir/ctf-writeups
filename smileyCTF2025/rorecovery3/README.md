@@ -10,7 +10,7 @@ Only one file this time called `leastsaneblueprint`
 
 ## File Recovery
 
-This process is similar to the other rorecovery challenges but I will include the process here since I don't feel like making writeups for those too
+This process is similar to the other rorecovery challenges but I will include the process here since I don't feel like making writeups for those
 
 Running `file leastsaneblueprint` just gives us `data` so lets look at the hexdump for this file
 
@@ -56,7 +56,7 @@ Now we are able to open the file in Roblox Studio
 
 ## Finding the flag
 
-Opening the file we are faced with a city template and now we have to find things that are "randomly placed"
+Opening the file we are faced with a city template and we need to find things that are "randomly placed"
 
 The buildings are the same as the template file but if we keep looking around we find these pipes sticking out randomly
 
@@ -79,11 +79,12 @@ if pipesFolder then
         end
     end
 end
+print("X Coordinates of Pipes:", table.concat(xCoordinates, ", "))
 ```
 
 ## Decoding
 
-This is where I got stuck as I didn't know what to do, but if you look at the title of the file **l**east**s**ane**b**lueprint and **LEAST** in the description we come to the conclusion that we need to use lsb (Least Significant Byte) decoding
+This is where I got stuck, but if you look at the title of the file **l**east**s**ane**b**lueprint and **LEAST** in the description we come to the conclusion that we need to use lsb (Least Significant Byte) decoding
 
 Now we just write a python script to take in these coordinates and get our decrypted flag
 
