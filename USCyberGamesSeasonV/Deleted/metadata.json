@@ -1,0 +1,9 @@
+{
+  "title": "Deleted",
+  "description": "Recover the deleted file",
+  "category": "forensics",
+  "difficulty": "Easy",
+  "date": "2025-06-18",
+  "tags": ["file recovery", "sleuthkit", "forensics"],
+  "ctf": "US Cyber Games Season V"
+}
