@@ -1,4 +1,4 @@
-# Narnia 0
+# Narnia 2
 
 ## C File
 
@@ -49,6 +49,8 @@ First we need to find the offset. We can use `pwn cyclic` and pass that as our a
 Doing that we get an adress of `0x62616169` which we can look up with `pwn cyclic -l 0x62616169` to be an offset of 132
 
 So now we need to craft a payload in the form of shellcode + rest of the overflow + address to buf
+
+We can get the address to buf using gdb by seeing the arguments passed to the strcpy
 
 Then we send the payload, get our shell, and open the flag
 

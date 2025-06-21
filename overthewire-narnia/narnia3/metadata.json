@@ -1,0 +1,9 @@
+{
+  "title": "Narnia3",
+  "description": "Buffer overflow file names",
+  "category": "pwn",
+  "difficulty": "Medium",
+  "date": "2025-06-19",
+  "tags": ["pwn", "buffer overflow"],
+  "ctf": "overthewire-narnia"
+}
