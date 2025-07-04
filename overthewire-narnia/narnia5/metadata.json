@@ -1,0 +1,9 @@
+{
+  "title": "Narnia4",
+  "description": "Buffer overflow shellcode",
+  "category": "pwn",
+  "difficulty": "Easy",
+  "date": "2025-06-21",
+  "tags": ["pwn", "buffer overflow"],
+  "ctf": "overthewire-narnia"
+}
