@@ -1,0 +1,9 @@
+{
+  "title": "LCG_hack",
+  "description": "Predicting a linear congruential generator",
+  "category": "PPC",
+  "difficulty": "Easy",
+  "date": "2025-07-02",
+  "tags": ["LCG", "Python", "Programming"],
+  "ctf": "Junior.Crypt.2025"
+}
