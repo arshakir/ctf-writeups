@@ -1,9 +1,0 @@
-{
-  "title": "Narnia2",
-  "description": "ShellCode with buffer overflow",
-  "category": "pwn",
-  "difficulty": "Medium",
-  "date": "2025-06-19",
-  "tags": ["pwn", "shellcode", "buffer overflow"],
-  "ctf": "overthewire-narnia"
-}

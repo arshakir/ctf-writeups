@@ -1,9 +1,0 @@
-{
-  "title": "Robust PRNG",
-  "description": "Predicting a pythons PRNG",
-  "category": "PPC",
-  "difficulty": "Easy",
-  "date": "2025-07-02",
-  "tags": ["PRNG", "Python", "Programming"],
-  "ctf": "Junior.Crypt.2025"
-}

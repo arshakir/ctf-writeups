@@ -1,9 +1,0 @@
-{
-  "title": "Narnia0",
-  "description": "Buffer Overflow",
-  "category": "pwn",
-  "difficulty": "Easy",
-  "date": "2025-06-18",
-  "tags": ["pwn", "buffer overflow", "c"],
-  "ctf": "overthewire-narnia"
-}

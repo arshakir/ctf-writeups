@@ -1,9 +1,0 @@
-{
-  "title": "Prime Suspects",
-  "description": "Decrypt the RSA message",
-  "category": "crypto",
-  "difficulty": "Easy",
-  "date": "2025-06-18",
-  "tags": ["RSA", "Small Primes", "Crypto"],
-  "ctf": "US Cyber Games Season V"
-}

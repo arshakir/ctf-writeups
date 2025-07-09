@@ -1,9 +1,0 @@
-{
-  "title": "GoldenByte",
-  "description": "Finding the golden value",
-  "category": "pwn",
-  "difficulty": "Easy",
-  "date": "2025-07-02",
-  "tags": ["pwn", "gdb", "decompiler"],
-  "ctf": "Junior.Crypt.2025"
-}

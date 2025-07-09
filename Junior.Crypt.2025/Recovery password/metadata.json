@@ -1,9 +1,0 @@
-{
-  "title": "Recovery password",
-  "description": "Keepass Exploit",
-  "category": "forensics",
-  "difficulty": "Easy",
-  "date": "2025-07-02",
-  "tags": ["forensics", "CVE", "keepass"],
-  "ctf": "Junior.Crypt.2025"
-}

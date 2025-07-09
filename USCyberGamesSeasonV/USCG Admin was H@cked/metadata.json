@@ -1,9 +1,0 @@
-{
-  "title": "USCG Admin was H@cked",
-  "description": "Find the malicious startup application",
-  "category": "forensics",
-  "difficulty": "Easy",
-  "date": "2025-06-18",
-  "tags": ["windows", "registry", "forensics", "hivexsh"],
-  "ctf": "US Cyber Games Season V"
-}
